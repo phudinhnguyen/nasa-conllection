@@ -1,0 +1,23 @@
+@mixin button($nomal, $hover, $active, $text-color) {
+  margin-top: 20px;
+  border: 1px solid #ceced2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  border-radius: 3px;
+  background-color: $nomal;
+  color: $text-color;
+  i {
+    font-size: 29px;
+  }
+  &:hover {
+    background-color: $hover;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+  &:active {
+    background-color: $active;
+  }
+}
