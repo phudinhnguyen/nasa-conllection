@@ -1,0 +1,9 @@
+@import "./Helpers/variable";
+@import "./Base/reset";
+
+// Styles pages
+@import "../Pages/Home/home.scss";
+@import "../Pages/Home/collection/collectionItem/collectionItem.scss";
+@import "../Pages/Search/search.scss";
+@import "../Pages/Modal/Modal.scss";
+

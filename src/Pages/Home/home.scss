@@ -1,0 +1,42 @@
+@import '../../styles/Helpers/mixin';
+
+.home{
+    padding: 50px 0;
+    .header{
+        justify-content: space-between;
+        .add-btn{
+            width: 200px;
+            @include button(#784CC0, #976BE2, #5D3999, white)
+        }
+        .title{
+            color: $text-color;
+            font-size: 50px;
+            padding: 0;
+        }
+    }
+    .collection{
+        padding: 50px 0;
+    }
+}
+
+.row{
+    width: 100%;
+    float: left;
+}
+
+.col{
+    width: 25%;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 720px) {
+    .col{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .col{
+        width: 100%;
+    }
+}

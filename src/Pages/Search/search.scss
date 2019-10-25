@@ -1,0 +1,34 @@
+.search{
+    padding: 50px 0;
+    .back{
+        color: #784CC0;
+        &:hover{
+            text-decoration: none;
+            color: rgb(131, 89, 199)
+        }
+        i{
+            margin-right: 5px;
+        }
+    }
+    .search_title{
+        color: #000000;
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: -0.96px;
+        line-height: 48px;
+        opacity: 0.75;
+        text-align: left;
+        margin: 30px 0;
+    }
+    .search_input{
+        width: 100%;
+        border: 1px solid #CECED2;
+        border-radius: 3px;
+        height: 62px;
+        padding: 20px;
+        font-size: 30px;
+        &:focus{
+            outline: none;
+        }
+    }
+}
