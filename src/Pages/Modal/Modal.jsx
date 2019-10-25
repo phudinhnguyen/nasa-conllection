@@ -21,7 +21,7 @@ class MyModal extends Component {
             title: this.props.itemSelected.data[0].title,
             description: this.props.itemSelected.data[0].description,
             type: this.props.itemSelected.data[0].type,
-            link: this.props.itemSelected.data[0].link,
+            link: this.props.itemSelected.href,
         })
     }
     
